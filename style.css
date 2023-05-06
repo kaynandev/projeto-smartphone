@@ -5,33 +5,34 @@
     margin: 0px;
 }
 
-html, body{
-    height: 100vh;
-    width: 100vw;
-}
+
 
 body{
-    background: url('imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('imagens/fundo-madeira.jpg') no-repeat ;
     background-size: cover;
     background-attachment: fixed;
+    
 
 }
-
 main{
     position: relative;
+}
+
+#cell{
+    background: url('imagens/frame-iphone.png') no-repeat top center;
+    height: 627px;
+    width: 311;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 
-.telefone{
-    display: flex;  
-    align-items: center;
-    justify-content: center;
-
+.celular{
+    max-width: 100%;
 }
 
-.celular{
-    height: 627px;
-    width: 311px;
-    max-width: 311px;
-    max-height: 627px;
+#tela{
+    height: 475px;
+    width: 268px;
 }
