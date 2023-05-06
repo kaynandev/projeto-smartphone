@@ -4,3 +4,34 @@
     padding: 0px;
     margin: 0px;
 }
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background: url('imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main{
+    position: relative;
+   
+}
+
+.telefone{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+
+}
+
+.celular{
+    height: 627px;
+    width: 311px;
+    max-width: 311px;
+    max-height: 627px;
+}
