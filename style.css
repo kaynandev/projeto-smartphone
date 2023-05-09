@@ -1,38 +1,23 @@
 @charset "UTF-8";
 
-* {
-    padding: 0px;
+*{
     margin: 0px;
+    padding: 0px;
 }
 
-
-
-body{
+html,body{
     background: url('imagens/fundo-madeira.jpg') no-repeat ;
-    background-size: cover;
     background-attachment: fixed;
-    
-
+    background-size: cover;
 }
-main{
+
+main{ 
     position: relative;
+
 }
 
-#cell{
-    background: url('imagens/frame-iphone.png') no-repeat top center;
-    height: 627px;
-    width: 311;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+.cell{
+    background: url('imagens/frame-iphone.png');
 }
 
-.celular{
-    max-width: 100%;
-}
 
-#tela{
-    height: 475px;
-    width: 268px;
-}
