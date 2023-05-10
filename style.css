@@ -5,19 +5,31 @@
     padding: 0px;
 }
 
-html,body{
+body{
     background: url('imagens/fundo-madeira.jpg') no-repeat ;
     background-attachment: fixed;
     background-size: cover;
 }
 
-main{ 
-    position: relative;
-
+main{
+    
 }
 
 .cell{
-    background: url('imagens/frame-iphone.png');
+    
+    
+    background: url('frame-iphone.png')no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 620px;
+      
 }
 
+#tela{
+    
+    width: 275px;
+    height: 520px;
+}
 
